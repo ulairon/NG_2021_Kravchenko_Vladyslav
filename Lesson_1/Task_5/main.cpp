@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int PCh, VCh;
+    int PCh, VCh, R;
     char D;
     cout << "vvedite pervoe chislo: " ;
     cin >> PCh;
@@ -15,18 +15,26 @@ int main()
     switch (D)
     {
         case '1' :
-        cout << "otvet: "<< PCh+VCh<<endl;
+        R = PCh + VCh;
         break;
         case '2' :
-        cout << "otvet: "<< PCh-VCh<<endl;
+        R = PCh - VCh ;
         break;
         case '3' :
-        cout << "otvet: "<< PCh*VCh<<endl;
+        R = PCh * VCh ;
         break;
         case '4' :
-        cout << "otvet: "<< PCh/VCh<<endl;
+        R = PCh/VCh ;
         break;
     }
+    cout << "Otvet: " << R << endl ;
+    return 0;
+}
 
+        case '4' :
+        PCh/VCh ;
+        break;
+    }
+    cout << "Otvet: " << R << endl ;
     return 0;
 }
