@@ -4,22 +4,22 @@ using namespace std;
 
 int main()
 {
-    int Nuzhno, Skilko_v_Shiske, Sobrano;
-
+    int N, M, K;
+    
     cout << "Skolko nuzhno oreshkov:" ;
-    cin >> Nuzhno;
-
+    cin >> N;
+    
     cout << "Skolko oreshkov v shiske:" ;
-    cin >> Skilko_v_Shiske;
-
+    cin >> M;
+    
     cout << "Skolko ona sobrala: " ;
-    cin >> Sobrano;
-
-    if (Nuzhno > Skilko_v_Shiske * Sobrano) {
-    cout << "Eto pechalno - CMEPTb!" << endl ;
+    cin >> K;
+    
+    if (N > M * K) {
+        cout << "Eto pechalno - CMEPTb!" << endl ;
     } else { 
         cout << "Belochka budet zhirnenkoi" << endl ;
-      }
-
+    }
+    
     return 0;
 }
