@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    int N, M, K;
+    int Nuzhno, Skilko_v_Shiske, Sobrano;
 
     cout << "Skolko nuzhno oreshkov:" ;
-    cin >> N;
+    cin >> Nuzhno;
 
     cout << "Skolko oreshkov v shiske:" ;
-    cin >> M;
+    cin >> Skilko_v_Shiske;
 
     cout << "Skolko ona sobrala: " ;
-    cin >> K;
+    cin >> Sobrano;
 
-    if (N > M * K) {
+    if (Nuzhno > Skilko_v_Shiske * Sobrano) {
     cout << "Eto pechalno - CMEPTb!" << endl ;
     } else { 
         cout << "Belochka budet zhirnenkoi" << endl ;
