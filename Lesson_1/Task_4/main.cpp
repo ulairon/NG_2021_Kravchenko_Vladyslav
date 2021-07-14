@@ -4,18 +4,24 @@ using namespace std;
 
 int main()
 {
-    int ZP;
+    int Zarplata;
 
     cout << "Skazhite vashu zarplatu v $, pozhatusta: ";
-    cin >> ZP;
+    cin >> Zarplata;
 
-    if (ZP > 999999) { cout << "Da ti millioner"; }
-
-    if (ZP > 999) {
-        if (ZP < 1000000){ cout << "Kruto"; }
+    if (Zarplata > 999999) {
+        cout << "Da ti millioner";
     }
 
-    if (ZP<1000) { cout << "Rabotai bolshe!"; }
+    if (Zarplata > 999) {
+        if (Zarplata < 1000000){ 
+            cout << "Kruto"; 
+        }
+    }
+
+    if (Zarplata<1000) { 
+        cout << "Rabotai bolshe!";
+    }
    
     cout << ", no ti molodec!" << endl;
 
