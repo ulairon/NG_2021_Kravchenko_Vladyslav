@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int PervoeChislo, VtoroeChislo ;
-    int For_Cases;
+    int For_Cases; //Ели додумался как это сделать
     
     cout << "vvedite pervoe chislo: " ;
     cin >> PervoeChislo;
