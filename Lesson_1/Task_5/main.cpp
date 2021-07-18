@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    int PervoeChislo, VtoroeChislo ;
-    int For_Cases; //Ели додумался как это сделать
+    int PervoeChislo, VtoroeChislo;
+    int For_Cases;
     
     cout << "vvedite pervoe chislo: " ;
     cin >> PervoeChislo;
@@ -13,8 +13,9 @@ int main()
     cout << "vvedite vtoroe chislo: " ;
     cin >> VtoroeChislo;
     
-    cout << "vvedite svoe deistvie (1- dobavit, 2- otnimanie, 3- umnozhenie, 4- delenie.): " ;
+    cout << "vvedite svoe deistvie" << endl << "1- dobavit" << endl << "2- otnimanie" << endl << "3- umnozhenie" << endl << "4- delenie " << endl ;
     cin >> For_Cases;
+    
     cout << "Result: ";
     
     switch (For_Cases)
