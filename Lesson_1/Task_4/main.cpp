@@ -10,13 +10,15 @@ int main()
     cin >> Zarplata;
 
     if (Zarplata > 999) {
+        if (Zarplata > 999999) {
+            cout << "Da ti millioner";
+        }
+
         if (Zarplata < 1000000){
             cout << "Kruto";
         }
     }
-    if (Zarplata > 999999) {
-        cout << "Da ti millioner";
-    }
+
 
 
     if (Zarplata<1000) {
