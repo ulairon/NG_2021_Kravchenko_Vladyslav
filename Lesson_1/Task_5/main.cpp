@@ -15,8 +15,8 @@ int main()
     cin >> VtoroeChislo;
 
     cout << "vvedite svoe deistvie" << endl ;
-    cout<< "1- dobavit" << endl ;
-    cout<< "2- otnimanie" << endl;
+    cout << "1- dobavit" << endl ;
+    cout << "2- otnimanie" << endl;
     cout << "3- umnozhenie" << endl ;
     cout << "4- delenie " << endl << endl ;
     cout << "Deistvie: " ;
