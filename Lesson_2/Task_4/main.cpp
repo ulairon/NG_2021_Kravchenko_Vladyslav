@@ -14,18 +14,36 @@ int main()
     {
         cout << "dlinna dolzhna bit bolshe chem 1" ;
     } else {
-
-        for(for_dlina = 1; for_dlina <= dlina; for_dlina++)
+        for (int i = 0; i <2; i++)
         {
 
-            for(for_dlina_2 = 1; for_dlina_2 <= for_dlina; for_dlina_2++)
+            for(for_dlina = 1; for_dlina <= dlina; for_dlina++)
             {
-                cout << "* ";
+
+                for(for_dlina_2 = 1; for_dlina_2 <= for_dlina; for_dlina_2++)
+                {
+                    cout << "* ";
+                }
+
+                cout << endl ;
+            }
+            cout << endl ;
+
+            for(for_dlina_2 = dlina; for_dlina_2 >= 1; for_dlina_2--)
+            {
+
+                for(for_dlina = 1; for_dlina <= for_dlina_2; for_dlina++)
+                {
+                    cout << "* " ;
+                }
+
+                cout << endl ;
             }
 
             cout << endl ;
         }
     }
+
     return 0 ;
 }
 
