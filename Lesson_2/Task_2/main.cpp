@@ -11,7 +11,17 @@ int main()
 
     while (for_chislo <= chislo )
     {
-        cout << for_chislo << " " ;
+
+        if(for_chislo < chislo)
+        {
+            cout << for_chislo << ", " ;
+        }
+
+        if (for_chislo == chislo)
+        {
+            cout << for_chislo ;
+        }
+
         for_chislo++ ;
     }
 
